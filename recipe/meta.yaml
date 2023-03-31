@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jraph-{{ version }}.tar.gz
-  sha256: c3ac3a0b224b344eb6d367e8bc312d95ea41bf825d01ea31b80dd8c22c0dd8b8
+  sha256: cec85a106cb4257bf1c4410965ef412603619d225a746282a6e1a869e441f078
 
 build:
   noarch: python
