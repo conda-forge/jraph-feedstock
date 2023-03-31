@@ -1,13 +1,13 @@
 {% set name = "jraph" %}
-{% set version = "0.0.1.dev" %}
+{% set version = "0.0.4.dev0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/deepmind/{{ name }}/archive/refs/heads/master.tar.gz
-  sha256: 05ae8e78e77a514fc3653d2e738f40487c8f076d848b49f4551360db7983c7b8
+  url: https://github.com/deepmind/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 3fea1d3b0a42d1943c535a8702c4e28e03bb1c4d392387c5894994be8e420795
 
 build:
   number: 0
