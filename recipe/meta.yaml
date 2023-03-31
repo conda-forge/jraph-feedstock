@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/deepmind/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 05ae8e78e77a514fc3653d2e738f40487c8f076d848b49f4551360db7983c7b8
+  sha256: eb70deb8fa39d9dc902c6a52e6a2dcb8d6a747aebf0f6e2deb6191b898342f9b
 
 build:
   number: 0
